@@ -16,8 +16,8 @@ func main() {
 		if err != nil {
 			break
 		}
-		append(list1, &n1)
-		append(list2, &n2)
+		list1  = append(list1, n1)
+		list2 =  append(list2, n2)
 	}
 	fmt.Println(list1, list2)
 }
